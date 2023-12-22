@@ -77,7 +77,9 @@ function App() {
       <hr />
 
       <section className="cart">
-        <h1 className="cart-heading">Cart ({calculateTotalPrice()})</h1>
+        <h1 className="cart-heading">
+          Cart (Total price is {calculateTotalPrice()} Baht)
+        </h1>
         <div className="cart-item-list">
           {cartItem.map((item) => (
             <div className="cart-item" key={item.id}>
