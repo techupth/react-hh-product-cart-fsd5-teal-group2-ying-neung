@@ -56,6 +56,7 @@ function App() {
     <div className="App">
       <section className="product-container">
         <h1 className="product-heading">Products</h1>
+
         <div className="product-list">
           {products.map((product) => (
             <div className="product" key={product.id}>
