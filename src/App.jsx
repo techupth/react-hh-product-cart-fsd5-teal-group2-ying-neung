@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function App() {
   const [cartItem, setCartItem] = useState([]);
-  const [totalPrice, setTotalPrice] = useState(0);
 
   const calculateTotalPrice = () => {
     let totalPrice = 0;
